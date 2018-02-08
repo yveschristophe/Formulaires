@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  justify-content: space-around;
+
+}
+#EMAIL {
+  margin-left: 75px;
+}
+#Mycountry{
+  justify-content: center;
+  justify-content: space-around;
+}
+input{
+  border: solid 1px black;
+}
+select{
+  border: solid 1px black;
+  margin-right: 35px;
+  margin-left: 20px
+}
+.Title{
+  width: 352px;
+  height: 25;
+  display: flex;
+  justify-content: space-around;
+}
+form{
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-around;
+}
+#lien{
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background:url(images/bouton-noir.png) no-repeat;
+color:white;
+text-decoration:none;
+}
+#lien:hover{
+background:url(images/bouton-noir-2.png) no-repeat;
+}
+#SEND{
+  width: 100px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+img{
+  width: 50px;
+  height: 50px;
+}

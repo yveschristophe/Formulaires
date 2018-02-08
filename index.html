@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+  <form id="formulaire" name="formulaire" action="index.html" method="post">
+  <div class="Title">
+  <p>Nom d'utilisateur:</p>
+  <p>Mot de passe:</p>
+</div>
+    <div id="Myname">
+      <input type="text" name="Mynom" class="input" id="NAME" onchange="javascript:;majuscule()" required>
+      <input type="text" class="input" id="FIRSTNAME" onchange="javascript:;firstletter()" required>
+    </div>
+<div class="Title">
+  <p>Region :</p>
+  <p>Pseudo :</p>
+</div>
+    <div id="Mycountry">
+        <select id="COUNTRY">
+          <option value="0">North America</option>
+          <option value="1">South America</option>
+          <option value="2">Europe</option>
+          <option value="3">Chine</option>
+          <option value="4">South East Asia</option>
+        </select>
+    <input type="text" class="input" id="PHONE" required>
+    </div>
+    <div class="Title">
+      <p>Email :</p>
+    </div>
+    <div id="Myemail">
+        <input type="text"class="input" id="EMAIL" onblur="verifMail(this)">
+    </div>
+    <div id="lien">
+      <img src="/home/yves/Téléchargements/lolclient.jpeg" alt="">
+    <a href="https://euw.leagueoflegends.com/fr/">télécharger le client</a>
+    </div>
+    <input type="submit" id="SEND" onclick="javascript:;recupvaleur()">
+  </form>
+
+</body>
+<script type="text/javascript" src="index.js">
+
+</script>
+</html>
